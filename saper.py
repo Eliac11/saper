@@ -1,6 +1,10 @@
 from tkinter import *
 import random
-import bot
+import sys
+sys.path.insert(0, "bots")
+import bot5 as bot
+
+
 #import neirobot
 
 #import mydeogram
@@ -346,7 +350,7 @@ def test():
     bomb_pri_pob = []
     if not t:
         t = True
-        testov = 100
+        testov = 500
         hod = 0
         igr = 0
         runhod = 0
