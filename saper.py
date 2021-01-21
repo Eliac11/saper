@@ -1,3 +1,5 @@
+import pygame
+
 from tkinter import *
 import random
 import sys
