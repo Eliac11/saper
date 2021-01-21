@@ -460,4 +460,4 @@ spamchisl()
 win.update_idletasks()
 win.mainloop()
 
-
+# эхх прощай tk
