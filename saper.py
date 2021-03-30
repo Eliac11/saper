@@ -290,9 +290,12 @@ def bothod(test = False):
                 return True
         elif rehenie == "xz":
             if not t:
-                messagebox.showerror("капец","честно хз(((")
+                messagebox.showerror("","честно не знаю(((")
 
+            #вот оно крысиное сохранение !!!!!!!!!!!!
             savg()
+            ###!!!!!!!!!!!!
+
             return False
             
             
@@ -350,7 +353,7 @@ def test():
     bomb_pri_pob = []
     if not t:
         t = True
-        testov = 500
+        testov = 1000
         hod = 0
         igr = 0
         runhod = 0
@@ -418,7 +421,7 @@ def test():
 
 
 
-obnov = Button(text = "Отчистить поле",command =lambda:restart())
+obnov = Button(text = "Очистить поле",command =lambda:restart())
 obnov.grid(column = 0,row = 0)
 
 info = Label(text = "0",bg = "white")
@@ -434,7 +437,7 @@ open_saved = Button(text = "загрузить последнее сохране
 open_saved.place(x=270,y=2)
 
 start_test = Button(text = "начать тест бота",command = test)
-start_test.grid(column = 0,row = 4)
+start_test.grid(column = 0,row = 30)
 
 i = Label(text = "Posti Entertaiment \n Posti Arts",font="Chiller 15",bg = "white")
 i.grid(column = 101,row = 101)
